@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.15)  17 MAR 2023 09:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.15)  17 MAR 2023 09:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -575,66 +575,61 @@ mages/NTI Gymnasiet_Symbol_print_svart.png>] (main.toc)
 <../images/vindhur.jpg, id=18, 14.31174pt x 17.78297pt>
 File: ../images/vindhur.jpg Graphic file (type jpg)
 <use ../images/vindhur.jpg>
-Package pdftex.def Info: ../images/vindhur.jpg  used on input line 82.
+Package pdftex.def Info: ../images/vindhur.jpg  used on input line 87.
 (pdftex.def)             Requested size: 207.0021pt x 257.47583pt.
 
 
-main.tex:83: LaTeX Error: \caption outside float.
+main.tex:88: LaTeX Error: \caption outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.83     \caption
+l.88     \caption
                  {funktionen i princip. Källa: Ugglasno.se}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (32.94255pt too wide) in paragraph at lines 82--84
-[] \T1/cmr/m/n/10 funk-tio-nen i prin-cip. K�l-la: Ugglasno.se 
- []
 
 [2]
 <../images/vindterräng.jpg, id=23, 801.49437pt x 282.55562pt>
 File: ../images/vindterräng.jpg Graphic file (type jpg)
 <use ../images/vindterräng.jpg>
-Package pdftex.def Info: ../images/vindterräng.jpg  used on input line 89.
+Package pdftex.def Info: ../images/vindterräng.jpg  used on input line 94.
 (pdftex.def)             Requested size: 345.0pt x 121.62589pt.
  [3 <../images/vindhur.jpg> <../images/vindterräng.jpg>]
 
-LaTeX Warning: Citation 'Jens' on page 4 undefined on input line 99.
+LaTeX Warning: Citation 'Jens' on page 4 undefined on input line 106.
 
 
-LaTeX Warning: Citation 'Fraenkel' on page 4 undefined on input line 99.
+LaTeX Warning: Citation 'Fraenkel' on page 4 undefined on input line 106.
 
 
-LaTeX Warning: Citation 'fermi' on page 4 undefined on input line 99.
+LaTeX Warning: Citation 'fermi' on page 4 undefined on input line 106.
 
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-02.
+09.
 (C:\Users\endo.axelsson\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
 
 LaTeX Warning: File `../images/accelerationTime.png' not found on input line 12
-0.
+7.
 
 
-main.tex:120: Package pdftex.def Error: File `../images/accelerationTime.png' n
+main.tex:127: Package pdftex.def Error: File `../images/accelerationTime.png' n
 ot found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.120 ...extwidth]{../images/accelerationTime.png}
+l.127 ...extwidth]{../images/accelerationTime.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Empty bibliography on input line 124.
+LaTeX Warning: Empty bibliography on input line 131.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -676,9 +671,9 @@ xelsson/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 ><C:/Users/endo.axelsson/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmr10.pfb><C:/Users/endo.axelsson/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmr7.pfb>
-Output written on C:/code\Projects\pm\out\main.pdf (6 pages, 244255 bytes).
+Output written on C:/code\Projects\pm\out\main.pdf (6 pages, 245160 bytes).
 PDF statistics:
- 336 PDF objects out of 1000 (max. 8388607)
+ 338 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
