@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.15)  17 MAR 2023 09:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.15)  21 MAR 2023 13:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -575,66 +575,68 @@ mages/NTI Gymnasiet_Symbol_print_svart.png>] (main.toc)
 <../images/vindhur.jpg, id=18, 14.31174pt x 17.78297pt>
 File: ../images/vindhur.jpg Graphic file (type jpg)
 <use ../images/vindhur.jpg>
-Package pdftex.def Info: ../images/vindhur.jpg  used on input line 87.
+Package pdftex.def Info: ../images/vindhur.jpg  used on input line 93.
 (pdftex.def)             Requested size: 207.0021pt x 257.47583pt.
 
 
-main.tex:88: LaTeX Error: \caption outside float.
+main.tex:94: LaTeX Error: \caption outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.88     \caption
-                 {funktionen i princip. Källa: Ugglasno.se}
+l.94     \caption
+                 {funktionen simplifierad. Källa: Ugglasno.se}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (2.61696pt too wide) in paragraph at lines 93--95
+[][] \T1/cmr/m/n/10 funk-tio-nen simp-li-fi-e-rad. K�l-
+ []
 
 [2]
 <../images/vindterräng.jpg, id=23, 801.49437pt x 282.55562pt>
 File: ../images/vindterräng.jpg Graphic file (type jpg)
 <use ../images/vindterräng.jpg>
-Package pdftex.def Info: ../images/vindterräng.jpg  used on input line 94.
+Package pdftex.def Info: ../images/vindterräng.jpg  used on input line 112.
 (pdftex.def)             Requested size: 345.0pt x 121.62589pt.
- [3 <../images/vindhur.jpg> <../images/vindterräng.jpg>]
+ [3 <../images/vindhur.jpg>]
 
-LaTeX Warning: Citation 'Jens' on page 4 undefined on input line 106.
-
-
-LaTeX Warning: Citation 'Fraenkel' on page 4 undefined on input line 106.
+LaTeX Warning: Citation 'Jens' on page 4 undefined on input line 124.
 
 
-LaTeX Warning: Citation 'fermi' on page 4 undefined on input line 106.
+LaTeX Warning: Citation 'Fraenkel' on page 4 undefined on input line 124.
+
+
+LaTeX Warning: Citation 'fermi' on page 4 undefined on input line 124.
 
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-09.
+27.
 (C:\Users\endo.axelsson\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
 
-LaTeX Warning: File `../images/accelerationTime.png' not found on input line 12
-7.
+LaTeX Warning: File `../images/accelerationTime.png' not found on input line 14
+5.
 
 
-main.tex:127: Package pdftex.def Error: File `../images/accelerationTime.png' n
+main.tex:145: Package pdftex.def Error: File `../images/accelerationTime.png' n
 ot found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.127 ...extwidth]{../images/accelerationTime.png}
+l.145 ...extwidth]{../images/accelerationTime.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Empty bibliography on input line 131.
+LaTeX Warning: Empty bibliography on input line 149.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[4] [5] (main.aux)
+[4 <../images/vindterräng.jpg>] [5] (main.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -650,7 +652,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  11542 strings out of 476339
  219195 string characters out of 5784343
- 1856340 words of memory out of 5000000
+ 1857340 words of memory out of 5000000
  31833 multiletter control sequences out of 15000+600000
  521535 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -671,9 +673,9 @@ xelsson/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 ><C:/Users/endo.axelsson/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmr10.pfb><C:/Users/endo.axelsson/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmr7.pfb>
-Output written on C:/code\Projects\pm\out\main.pdf (6 pages, 245160 bytes).
+Output written on C:/code\Projects\pm\out\main.pdf (6 pages, 246726 bytes).
 PDF statistics:
- 338 PDF objects out of 1000 (max. 8388607)
+ 339 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
