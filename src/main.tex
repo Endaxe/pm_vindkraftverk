@@ -3,13 +3,14 @@
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage[swedish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
 \usepackage[
     backend=biber,
     style=authoryear-ibid,
     sorting=ynt
 ]{biblatex}
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
 %Källor
 \addbibresource{mall.bib}
 \graphicspath{ {./images/} }
@@ -87,10 +88,10 @@
 
   Det praktiska är att vindriktningen faktist inte spelar någon  roll.
    Alla vindkraftverk som inte är i äldre versioner har turbiner som roterar sig till rätt riktning.
-
-    \includegraphics[width=0.6\textwidth]{../images/vindhur.jpg}
-    \caption{funktionen simplifierad. Källa: Ugglasno.se}
-
+    \begin{figure}
+        \includegraphics[width=0.6\textwidth]{../images/vindhur.jpg}
+        \caption{funktionen simplifierad. Källa: Ugglasno.se}
+    \end{figure}
     \subsection{Globala och lokala miljöpåverkan av vindkraft}
     Miljöpåverkan på olika saker är en stor fråga som är aktuellt.
     Fokuset är att hitta en energikälla som inte är begränsad av och påverkar miljön lika mycket som dem som är vanligast.
@@ -98,13 +99,16 @@
     Där inte mycket enrgi som andra,
     Själva monteringen och konstrueringen är det som kostar som mest och påverka miljön.
     när allt väl är uppe så är vindkraftverk väldigt bra, långsiktigt så är det en stabil källa om man endast tänker på miljö perspektivet.
-    För det första så är det lite underhåll, ingen restfall efter, inte lika stor påverkan på naturlivet runt om, energin är förnybar, gratis och den största fördelen är att den inte bidrar till växthuseffekten
+    Som \parencite{ugglansfysik} tar upp på deras sida ,för det första så är det lite underhåll, ingen restfall efter, inte lika stor påverkan på naturlivet runt om, energin är förnybar, gratis och den största fördelen är att den inte bidrar till växthuseffekten ()
 
 
-    \subsection{Vindkraftens påverkan på områden och ekonomi}
+    \subsection{Vindkraftens påverkan på samhället och ekonomi}
+   I en artikel så nämner \textcite{divaportal} om
     natur folk tycker att det är fult
     Stör djurliv?
-    Kostar mycket för att bygga upp för mängden energin man får tillbaka (det finns billigare)
+    Kostar mycket för att bygga upp för mängden energin man får tillbaka (det finns billigare alternativ kortsiktigt)
+    dock så kräver det lite underhåll som sagt så det kräver mindre pengar under en längre period
+   Beroende av andra källor när det är vindstilla
     \subsection{Vindkraft, land eller vatten?}
 
     \includegraphics[width=1\textwidth]{../images/vindterräng.jpg}
@@ -124,26 +128,8 @@
     \section{Annat som kan vara bra att veta}
     Om du vill ha kodstil och få med alla tecken kan du använda verbatim. då kan du skriva \verb|abcd!"#| utan problem...
 
-    Citat skrivs mellan de konstiga symbolerna \verb|``| och \verb|''| för att de ska se bra ut ``se bra ut!''.
-    \subsection{En underrubrik}
-    \subsubsection{En underunderrubrik}
-    \subsection{Ekvationer}
-    Det är lätt att skriva matematik i \LaTeX
 
-    \begin{equation}
-        F = G \frac{M m}{r^2}
-        \label{grav}
-    \end{equation}
 
-    Ekvation (\ref{grav}) känner ni igen...
 
-    \subsection{figurer}
-    Bilder placeras enklast på detta sätt. placeringen bestämmer \LaTeX och vi kan bara föreslå (h)är, (t)opp eller (b)otten. Ett utropstecken före tvingar lite mer men inte absolut. I bild \ref{varg} visas en varg
-    \begin{figure}[!h]
-        \includegraphics[width=0.8\textwidth]{../images/accelerationTime.png}
-        \caption{Acceleration-tid diagram. Källa: Impuls Fysik 1}
-        \label{varg}
-    \end{figure}
-    \printbibliography
 
 \end{document}
